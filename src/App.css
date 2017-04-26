@@ -30,12 +30,12 @@ a:link{
 }
 
 body{
-  background-color: #D5D5D5;
+  background-color: white;
 }
 section{
   display:flex;
   align-items: center;
-  background-color: #D7CEC7;
+  background-color: #ff667d;
   height: 100px;
   font-size:50px;
   color: white;
@@ -50,6 +50,11 @@ section{
   left:900px;
 }
 
+.button{
+  color:white;
+  background-color: lightblue;
+  border-radius: 5px;
+}
 
 .container{
   background-color: #EFEFEF;
@@ -63,7 +68,6 @@ section{
 
 .box3{
   display: inline;
-  text-align: center;
   height: 350px;
   padding-left: 30px;
 }
@@ -71,4 +75,23 @@ section{
   padding: 0px;
   margin:0px;
   font-size: 80px;
+  text-align: center;
+}
+
+.class{
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  color: white;
+  background-color: #ff667d;
+  justify-content: space-around;
+}
+
+.people{
+  background-color: lightblue;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
 }
